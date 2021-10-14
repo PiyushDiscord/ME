@@ -3,6 +3,8 @@
 } */
 
 
+/* NAVBAR */
+
 .piyush{
     display: none;
 }
@@ -11,9 +13,42 @@
     font-size: 15px;
 }
 
+.main-nav:hover{
+    display: flex;
+    list-style: none;
+    line-height: 1.5em;
+    margin: 0;
+    color: white;
+    cursor: default;
+}
+
+.main-nav a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #000000;
+    font-size: 1rem;
+    
+}
+
+/* COVER */
+
+.cover:hover{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
 
 /* SOCIALS */
 
+.socialh1:hover{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    cursor: default;
+}
 
 .social-img{
     height: 70px;
@@ -29,5 +64,36 @@
     transition: 1s;
     color: white;
 }
+
+.social-img:hover{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+}
+
+.social-text:hover{
+    display: inline-block;
+    padding: 0px 2.5rem;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+/* ABOUT */
+
+.abouth1:hover{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    /* color: ; */
+}
+
+.about-para:hover{
+    font-size: 1.5rem;
+}
+
+.about-para:last-child:hover{
+    font-size: 1.3rem;
+}
+
 
 
